@@ -5,6 +5,9 @@ class Music
     public int Duration{set; get;}
     public bool Available{set; get;}
 
+    public string Description => 
+        $"A música {Name} pertence ao artista {Artist}";
+
     public void DisplayTechnicalSheet()
     {
         Console.WriteLine($"Nome: {Name}");
