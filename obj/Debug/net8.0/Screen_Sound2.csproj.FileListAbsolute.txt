@@ -12,3 +12,4 @@ C:\Users\Carlos\OneDrive\Desktop\Projects\Screen_Sound2\obj\Debug\net8.0\refint\
 C:\Users\Carlos\OneDrive\Desktop\Projects\Screen_Sound2\obj\Debug\net8.0\Screen_Sound2.pdb
 C:\Users\Carlos\OneDrive\Desktop\Projects\Screen_Sound2\obj\Debug\net8.0\Screen_Sound2.genruntimeconfig.cache
 C:\Users\Carlos\OneDrive\Desktop\Projects\Screen_Sound2\obj\Debug\net8.0\ref\Screen_Sound2.dll
+C:\Users\Carlos\OneDrive\Desktop\Projects\Screen_Sound2\obj\Debug\net8.0\Screen_Sound2.sourcelink.json
