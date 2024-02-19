@@ -1,7 +1,7 @@
 class Music
 {
-    public string Name {set; get;}
-    public string Artist{set; get;}
+    public string? Name {set; get;}
+    public string? Artist{set; get;}
     public int Duration{set; get;}
     public bool Available{set; get;}
 
