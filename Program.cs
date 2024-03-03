@@ -14,4 +14,7 @@ music2.Duration = 207;
 AlbumTDG.AddMusic(music1);
 AlbumTDG.AddMusic(music2);
 
-AlbumTDG.DisplayAlbum();
+Band TDG = new Band();
+TDG.BandName = "Three Days Grace";
+TDG.AdicionarAlbum(AlbumTDG);
+TDG.ShowDiscography();
