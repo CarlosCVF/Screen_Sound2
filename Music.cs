@@ -4,6 +4,7 @@ class Music
     public string? Artist{set; get;}
     public int Duration{set; get;}
     public bool Available{set; get;}
+    public Genero Genero{get;set;}
 
     public string Description => 
         $"A música {Name} pertence ao artista {Artist}";
