@@ -1,9 +1,13 @@
 class Music
 {
-    public string? Name {set; get;}
-    public string? Artist{set; get;}
-    public int Duration{set; get;}
-    public bool Available{set; get;}
+    public Music (Band artist)
+    {
+        Artist = artist;
+    }
+    public string? Name {get; set;}
+    public Band Artist{get;}
+    public int Duration{get; set;}
+    public bool Available{get; set;}
     public Genero? Genero{get;set;}
 
     public string Description => 
