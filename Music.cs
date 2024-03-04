@@ -1,10 +1,11 @@
 class Music
 {
-    public Music (Band artist)
+    public Music(Band artist, string? name)
     {
         Artist = artist;
+        Name = name;
     }
-    public string? Name {get; set;}
+    public string? Name {get;}
     public Band Artist{get;}
     public int Duration{get; set;}
     public bool Available{get; set;}
@@ -16,7 +17,7 @@ class Music
     public void DisplayTechnicalSheet()
     {
         Console.WriteLine($"Nome: {Name}");
-        Console.WriteLine($"Artista: {Artist}");
+        Console.WriteLine($"Artista: {Artist.BandName}");
         Console.WriteLine($"Duração: {Duration}");
         if (Available)
         {
