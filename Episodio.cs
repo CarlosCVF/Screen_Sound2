@@ -11,9 +11,9 @@ class Episodio
     public int Ordem { get;}
     public string Name { get;}
     public int Duration { get;}
-    public string Resumo => $"{Ordem} - {Name} ({Duration} s) - feat. {string.Join(" ",convidados)}";
-    public void adicionarConvidados(string convidados)
+    public string Resumo => $"{Ordem} - {Name} ({Duration} s) - feat. {string.Join(", ",convidados)}";
+    public void AdicionarConvidados(string convidado)
     {
-        convidados.Add(convidados);
+        convidados.Add(convidado);
     }
 }
