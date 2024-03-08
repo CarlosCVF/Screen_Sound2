@@ -25,6 +25,6 @@
 // music2.DisplayTechnicalSheet();
 // TDG.ShowDiscography();
 Episodio eps1 = new(1, "Técnica de Facilitação", 3000);
-eps1.AdicionarConvidados("João");
-eps1.AdicionarConvidados("Maria");
-System.Console.WriteLine(eps1.Resumo);
+eps1.AddGuests("João");
+eps1.AddGuests("Maria");
+System.Console.WriteLine(eps1.Summary);

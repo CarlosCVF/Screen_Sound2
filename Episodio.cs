@@ -1,19 +1,19 @@
 class Episodio
 {
-    private List<string> convidados = new();
-    public Episodio(int ordem, string name, int duration)
+    private List<string> guests = new();
+    public Episodio(int order, string name, int duration)
     {
-        Ordem = ordem;
+        Order = order;
         Name = name;
         Duration = duration;
     }
 
-    public int Ordem { get;}
+    public int Order { get;}
     public string Name { get;}
     public int Duration { get;}
-    public string Resumo => $"{Ordem} - {Name} ({Duration} s) - feat. {string.Join(", ",convidados)}";
-    public void AdicionarConvidados(string convidado)
+    public string Summary => $"{Order} - {Name} ({Duration} min) - feat. {string.Join(", ",guests)}";
+    public void AddGuests(string guest)
     {
-        convidados.Add(convidado);
+        guests.Add(guest);
     }
 }
