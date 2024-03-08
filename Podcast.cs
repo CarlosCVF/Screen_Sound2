@@ -12,7 +12,7 @@ class Podcast
     public int TotalEpisodio => episodios.Count;
     public void ShowDetails()
     {
-        System.Console.WriteLine($"O podcast {Name} apresentado por {Host}\n");
+        System.Console.WriteLine($"O podcast {Name} apresentado por {Host} possui:\n");
         foreach(Episodio episodio in episodios.OrderBy(e => e.Order))
         {
             System.Console.WriteLine(episodio.Summary);

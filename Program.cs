@@ -24,7 +24,16 @@
 // music1.DisplayTechnicalSheet();
 // music2.DisplayTechnicalSheet();
 // TDG.ShowDiscography();
-Episodio eps1 = new(1, "Técnica de Facilitação", 3000);
+Episodio eps1 = new(1, "Técnica de Facilitação", 30);
 eps1.AddGuests("João");
 eps1.AddGuests("Maria");
-System.Console.WriteLine(eps1.Summary);
+
+Episodio eps2 = new(1, "Técnica de Conhecimento", 47);
+eps2.AddGuests("Roberto");
+eps2.AddGuests("Catarina");
+eps2.AddGuests("Carlos");
+
+Podcast podcast = new("Podcast Diferenciado","Danilo");
+podcast.AdicionarEpisodio(eps1);
+podcast.AdicionarEpisodio(eps2);
+podcast.ShowDetails();
